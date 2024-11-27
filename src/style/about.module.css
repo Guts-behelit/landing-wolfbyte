@@ -1,0 +1,30 @@
+.aboutContainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+.aboutContainer > .aboutTitleContainer{
+    height: 80px;
+    margin: 0;
+    padding: 40px 0px;
+    background-color: white;
+    background-image: url('/img/lobo-sin-fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+.aboutTitleContainer > .aboutTitle {
+    position: absolute;
+    padding: 0px 0;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.aboutContainer > .aboutSectionContainer{
+    background-color: transparent;
+}
